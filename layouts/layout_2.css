@@ -1,0 +1,53 @@
+body {
+    margin :0;
+    padding: 100px 200px 200px 200px;
+    background: darkgoldenrod;
+}
+
+div {
+    margin:5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nav-item {
+    flex: 1;
+}
+
+.yellow {
+    background: gold !important;;
+}
+
+.navbar {
+    display: flex;
+    padding: 15px;
+}
+
+.header {
+    padding: 50px;
+}
+
+.intro {
+    padding: 40px;
+}
+
+.deck {
+    display:flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;;
+    column-gap: 2rem;
+    flex-flow: wrap;
+}
+
+.deck > div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.footer {
+    padding: 20px;
+}

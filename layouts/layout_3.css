@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 50px 300px 50px 300px;
+    background: salmon;
+    color: white;
+}
+
+div {
+    margin: 5px;
+}
+.deck {
+    display: flex;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.deck>div {
+    flex: 1 0 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: brown;
+}
+.nav {
+    flex: 1;
+}
+.text-center {
+    text-align: center;
+}
+
+
+
+.navbar {
+    display: flex;
+    background: brown;
+    padding: 15px;
+}
+
+
+.footer {
+    background: brown;
+    padding: 20px;
+}
